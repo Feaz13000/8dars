@@ -15,3 +15,62 @@ main {
     padding-right: 50px;
 }
 
+.header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.site-logo {
+    margin-right: 64.24px;
+}
+
+.site-logo-image {
+
+}
+
+.sitenav {
+    margin-right: auto;
+}
+.sitenav-list {
+    display: flex;
+    gap: 40px;
+}
+.sitenav-link {
+    color: inherit;
+
+    & : hover {
+        color: #151515;
+    }
+}
+.sitenav-item {
+
+}
+
+.header-cta {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.btn {
+    color: #686868;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 14px;
+    padding: 13px 23px;
+    border: 1.5px solid transparent;
+
+    & : :hover {
+        border-color: #151515;
+        color: #151515;
+    }
+}
+
+.btn-active {
+    border-color: #686868;
+}
